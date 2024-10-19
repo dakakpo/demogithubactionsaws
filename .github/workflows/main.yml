@@ -8,8 +8,8 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: AKIA3BGDAV5JJQDYSE7S
-          aws-secret-access-key: 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
+          aws-access-key-id: 
+          aws-secret-access-key: 
           aws-region: us-east-1
       - name: Upload to s3
         run: aws s3 cp ./document.pdf s3://ff4-bucket/ff4-demo-folder/
