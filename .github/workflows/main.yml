@@ -12,4 +12,4 @@ jobs:
           aws-secret-access-key: VzC0R+a8B59VxhHOaWhtmgHA3iShXuwpDQNsjCK/
           aws-region: us-east-1
       - name: Upload to s3
-        run: aws s3 cp ./Capture2.PNG s3://ff4-bucket/ff4-demo-folder/
+        run: aws s3 cp ./Screenshot 2024-10-09 160413.png s3://ff4-bucket/ff4-demo-folder/
